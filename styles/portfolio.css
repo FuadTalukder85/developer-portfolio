@@ -16,7 +16,9 @@
     border: none;
     padding: 18px 35px;
 }
-
+footer{
+    /* max-width: 1500px; */
+}
 /* Header and Nav styles */
 .header {
     background: #FFF8F3;
@@ -28,7 +30,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -188,4 +190,47 @@ main {
 .resume-btn{
     text-align: center;
     margin-top: 50px;
+}
+
+/* Contact section */
+footer{
+    background-color: #FFF8F3;
+}
+.contact{
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-around; */
+    max-width: 1500px;
+    margin-top: 110px;
+    gap: 100px;
+    padding: 130px 0;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact-description{
+    margin-bottom: 35px;
+    color: #474747;
+    /* padding-right: 200px; */
+}
+.contact a{
+    text-decoration: none;
+    padding-right: 25px;
+}
+.lets-contact{
+    width: 50%;
+}
+.contact input[type="text"], input[type="email"]{
+    /* height: 64px; */
+    width: 100%;
+    border: none;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+}
+textarea{
+    width: 100%;
+    border: none;
+    padding: 18px 30px;
+    line-height: 65%;
+    margin-bottom: 24px;
 }
